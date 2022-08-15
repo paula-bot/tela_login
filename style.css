@@ -1,0 +1,39 @@
+
+body {
+    background-image: linear-gradient(to top, rgb(224, 113, 224), rgb(238, 180, 74)); 
+}
+
+form {width: 500px; 
+      margin: 100px auto; 
+      text-align: center;
+      background-color: transparent;
+      height: 300px;
+      box-shadow: 3px 3px 1px 0px #00000060;
+      border-radius: 4px;   
+               
+    }
+
+input {display:inline-block; 
+       margin: 10px;  
+       width: 250px; 
+       height: 20px;
+       border-radius: 7px;
+       text-align: center;
+    }
+
+h1 {
+        width: center;
+        height: center;
+    }
+
+#forgot-pass {
+    text-align: center;
+    display: block;
+    margin: 10px;
+}  
+
+
+
+ 
+
+
