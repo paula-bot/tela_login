@@ -12,9 +12,11 @@
        <form>
             <h1>Login</h1> 
             <input type="e-mail" id="login" placeholder="Digite seu e-mail">
-            <input type="password" id="senha" placeholder="Digite sua senha"> <br/>
-           <input type="submit" onclick="logar(); return false">
-           <img src="img/balao.png" alt="some text"  width= 200px eight= 200px; >
+            <input type="password" id="senha" placeholder="Digite sua senha"> 
+           <input type="submit" onclick="logar(); return false"> <br>
+           <img src="img/balao.png" alt="some text"  width= 200px eight= 200px;>
+
+       </form>    
 
         <script>
             function logar(){
@@ -22,7 +24,7 @@
                 var login = document.getElementById("login"). value;
                 var senha = document.getElementById("senha"). value
 
-            if(login == "paulac@gmail.com" && senha == "paula"){
+            if(login == "paulac@gmail.com" && senha == "teste"){
                 alert ("Sucesso"); 
                 location.href = "home.html"; } 
             
