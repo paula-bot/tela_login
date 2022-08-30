@@ -25,14 +25,18 @@
                 var senha = document.getElementById('senha').value;
 
             if(login == "paulac@gmail.com" && senha == "paula"){
+                document.getElementById('login').value= "";
+                document.getElementById('senha').value= "";
                 alert ('Sucesso'); 
                 location.href = "home.html";
 
             } 
             
             else{
+                document.getElementById('login').value= "";
+                document.getElementById('senha').value= "";
                 alert ('Usuário ou senha inválidos');
-                document.getElementById(value) = "";
+                
 
             }
         }
